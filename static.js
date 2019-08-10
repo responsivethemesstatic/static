@@ -1,15 +1,9 @@
 var loc= window.location.href.toString(); 
 var res = loc.match(/http.*:\/\/(.*).blogspot./);
 if(res[1] === "aimeralyn"){
-    if ($("#adsyed").length) {
-        document.getElementById("adsyed").innerHTML = '<center><iframe src="https://coinmedia.co/new_code_site120525.js?ic" scrolling="no" frameborder="0" width="728px" height="90px"></iframe></center>';  
-    }
-    if ($("#adsdort").length) {
-       document.getElementById("adsdort").innerHTML = '<center><iframe src="https://coinmedia.co/new_code_site120526.js?ic" scrolling="no" frameborder="0" width="468px" height="60px"></iframe></center>'; 
-    }
-    if ($("#adsucyuz").length) {
-       document.getElementById("adsucyuz").innerHTML = '<center><iframe src="https://coinmedia.co/new_code_site120527.js?ic" scrolling="no" frameborder="0" width="300px" height="250px"></iframe></center>'; 
-    }
+    document.getElementById("adsyed").innerHTML = '<center><iframe src="https://coinmedia.co/new_code_site120525.js?ic" scrolling="no" frameborder="0" width="728px" height="90px"></iframe></center>';
+    document.getElementById("adsdort").innerHTML = '<center><iframe src="https://coinmedia.co/new_code_site120526.js?ic" scrolling="no" frameborder="0" width="468px" height="60px"></iframe></center>'; 
+    document.getElementById("adsucyuz").innerHTML = '<center><iframe src="https://coinmedia.co/new_code_site120527.js?ic" scrolling="no" frameborder="0" width="300px" height="250px"></iframe></center>';
 }
 //static
 if ($("#ads").length) {
