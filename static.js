@@ -1,4 +1,4 @@
-aimeralynvar loc= window.location.href.toString(); 
+var loc= window.location.href.toString(); 
 var res = loc.match(/http.*:\/\/(.*).blogspot./);
 document.getElementById("adsyed").innerHTML = '<center><a href="https://rebrand.ly/guyebasyy" target="_blank"><img src="https://lh3.googleusercontent.com/_nxGU-LmrfgnyRqu435EOeo2_hGgeY1XfKNwczsAr_3m58k_ZKLPyPNZfzYr3Ypa1_w7Hgm_PQi3cPLjGGFx-RbxJOAibZngzZzNhDU3hbtGINFHpIuPrWpbRUJuSnK3EZ753MQQ_A=w728-h90-no" width="728" height="90" border="0" alt="" /></a></center>';
 document.getElementById("adsdort").innerHTML = '<center><a href="https://rebrand.ly/guyebasyy" target="_blank"><img src="https://lh3.googleusercontent.com/_nxGU-LmrfgnyRqu435EOeo2_hGgeY1XfKNwczsAr_3m58k_ZKLPyPNZfzYr3Ypa1_w7Hgm_PQi3cPLjGGFx-RbxJOAibZngzZzNhDU3hbtGINFHpIuPrWpbRUJuSnK3EZ753MQQ_A=w728-h90-no" width="728" height="90" border="0" alt="" /></a></center>'; 
