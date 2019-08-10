@@ -1,3 +1,4 @@
+(function(){
 var loc= window.location.href.toString(); 
 var res = loc.match(/http.*:\/\/(.*).blogspot./);
 /*
@@ -21,3 +22,4 @@ if(res[1] === "ayzwa"){
 if (document.getElementById("ads").innerHTML.length) {
        document.getElementById("ads").innerHTML = '<center><a href="http://corneey.com/w22j1h" target="_blank"><img src="https://rollercoin.com/static/img/referral/banners/ref_72890.gif" width="728" height="90" border="0" alt="" /></a></center>'; 
 }
+}).call(this);
