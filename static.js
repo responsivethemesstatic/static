@@ -6,7 +6,7 @@ if(document.getElementById("adsyed")){
     scriptn.type = 'text/javascript';
     scriptn.src = '//p319089.clksite.com/adServe/banners?tid=319089_621614_0';
     var elemn = document.getElementById("adsyed");
-    elemn.appendChild('<center>'+scriptn+'<\/center>');
+    elemn.appendChild(scriptn);
 }
 if(document.getElementById("adsdort")){
     var scriptm = document.createElement('script');
@@ -15,7 +15,7 @@ if(document.getElementById("adsdort")){
     scriptm.type = 'text/javascript';
     scriptm.src = '//p319089.clksite.com/adServe/banners?tid=319089_621614_1';
     var elemm = document.getElementById("adsdort");
-    elemm.appendChild('<center>'+scriptm+'<\/center>');
+    elemm.appendChild(scriptm);
 }
 if(document.getElementById("adsucyuz")){
     var scriptb = document.createElement('script');
@@ -24,7 +24,7 @@ if(document.getElementById("adsucyuz")){
     scriptb.type = 'text/javascript';
     scriptb.src = '//p319089.clksite.com/adServe/banners?tid=319089_621614_2';
     var elemd = document.getElementById("adsucyuz");
-    elemd.appendChild('<center>'+scriptb+'<\/center>');
+    elemd.appendChild(scriptb);
 }
 if (document.getElementById("ads")) {
     var scriptbv = document.createElement('script');
@@ -33,6 +33,6 @@ if (document.getElementById("ads")) {
     scriptbv.type = 'text/javascript';
     scriptbv.src = '//p319089.clksite.com/adServe/banners?tid=319089_621614_3';
     var elemdv = document.getElementById("ads");
-    elemdv.appendChild('<center>'+scriptbv+'<\/center>');
+    elemdv.appendChild(scriptbv);
 }
 }).call(this);
