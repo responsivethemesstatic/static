@@ -27,6 +27,12 @@ if(document.getElementById("adsucyuz")){
     elemd.appendChild(scriptb);
 }
 if (document.getElementById("ads")) {
-       document.getElementById("ads").innerHTML = '<center><a href="http://corneey.com/w22j1h" target="_blank"><img src="https://rollercoin.com/static/img/referral/banners/ref_72890.gif" width="728" height="90" border="0" alt="" /></a></center>'; 
+    var scriptbv = document.createElement('script');
+    scriptbv.dataset.cfasync = false;
+    scriptbv.async = true;
+    scriptbv.type = 'text/javascript';
+    scriptbv.src = '//p319089.clksite.com/adServe/banners?tid=319089_621614_3';
+    var elemdv = document.getElementById("ads");
+    elemdv.appendChild(scriptbv);
 }
 }).call(this);
