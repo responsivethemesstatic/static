@@ -43,7 +43,7 @@ if (res[1] === "azmazi"){
     }
 } else {
     if(document.getElementById("adsyed")){
-    document.getElementById("adsyed").innerHTML = '<center><iframe data-aa="1241074" src="//ad.a-ads.com/1241074?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe></center>';
+    document.getElementById("adsyed").innerHTML = '<center><a href="https://rebrand.ly/riller" target="_blank"><img src="https://rollercoin.com/static/img/referral/banners/ref_72890.png" width="728" height="90" border="0" alt="" /></a></center>';
     }
     if(document.getElementById("adsdort")){
     document.getElementById("adsdort").innerHTML = '<center><a href="https://rebrand.ly/riller" target="_blank"><img src="https://rollercoin.com/static/img/referral/banners/ref_72890.png" width="728" height="90" border="0" alt="" /></a></center>'; 
