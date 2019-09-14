@@ -1,14 +1,1 @@
-(function(){
-    if(document.getElementById("adsyed")){
-    document.getElementById("adsyed").innerHTML = "<center><iframe scrolling='no' src='https://kaystuts.blogspot.com/mivk' style='width:728px; pointer-events: none; height:90px; border:0px; padding:0; overflow:hidden' referrerpolicy='no-referrer'/></center>"; 
-    }
-    if(document.getElementById("adsdort")){
-    document.getElementById("adsdort").innerHTML = '<center><a href="https://rebrand.ly/riller" target="_blank"><img src="https://rollercoin.com/static/img/referral/banners/ref_72890.png" width="728" height="90" border="0" alt="" /></a></center>'; 
-    }
-    if(document.getElementById("adsucyuz")){
-    document.getElementById("adsucyuz").innerHTML = '<center><a href="https://rebrand.ly/riller" target="_blank"><img src="https://rollercoin.com/static/img/referral/banners/ref_336280.png" width="300" height="250" border="0" alt="" /></a></center>';
-    }
-	if (document.getElementById("ads")) {
-       document.getElementById("ads").innerHTML = '<center><a href="https://rebrand.ly/riller" target="_blank"><img src="https://rollercoin.com/static/img/referral/banners/ref_72890.png" width="728" height="90" border="0" alt="" /></a></center>'; 
-	}
-}).call(this);
+(function(){document.getElementById("adsyed")&&(document.getElementById("adsyed").innerHTML='<center><a href="https://rebrand.ly/uty8m9" target="_blank"><img src="https://static.shorte.st/bundles/smeuser/img/mining/affiliation_banners/shortest-miner-728x90.png?2019-04-23.0" width="728" height="90" border="0" alt="" /></a></center>'),document.getElementById("adsdort")&&(document.getElementById("adsdort").innerHTML='<center><a href="https://rebrand.ly/uty8m9" target="_blank"><img src="https://static.shorte.st/bundles/smeuser/img/mining/affiliation_banners/shortest-miner-728x90.png?2019-04-23.0" width="728" height="90" border="0" alt="" /></a></center>'),document.getElementById("adsucyuz")&&(document.getElementById("adsucyuz").innerHTML='<center><a href="https://rebrand.ly/uty8m9" target="_blank"><img src="https://static.shorte.st/bundles/smeuser/img/mining/affiliation_banners/shortest-miner-250x250.png?2019-04-23.0" width="300" height="250" border="0" alt="" /></a></center>'),document.getElementById("ads")&&(document.getElementById("ads").innerHTML='<center><a href="https://rebrand.ly/uty8m9" target="_blank"><img src="https://static.shorte.st/bundles/smeuser/img/mining/affiliation_banners/shortest-miner-728x90.png?2019-04-23.0" width="728" height="90" border="0" alt="" /></a></center>')}).call(this);
