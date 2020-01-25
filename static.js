@@ -8,6 +8,7 @@ if(document.getElementById("adsyed")){
 		'params' : {}
 	};
     var scriptn = document.createElement('script');
+	scriptn.async = true;
     scriptn.type = 'text/javascript';
     scriptn.src = 'https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
     var elemn = document.getElementById("adsyed");
@@ -22,6 +23,7 @@ if(document.getElementById("adsucyuz")){
 		'params' : {}
 	};
     var scriptb = document.createElement('script');
+	scriptb.async = true;
     scriptb.type = 'text/javascript';
     scriptb.src = 'https://www.madcpms.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
     var elemd = document.getElementById("adsucyuz");
@@ -36,6 +38,7 @@ if (document.getElementById("ads")) {
 		'params' : {}
 	};
     var scriptbv = document.createElement('script');
+	scriptbv.async = true;
     scriptbv.type = 'text/javascript';
     scriptbv.src = 'https:://www.madcpms.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
     var elemdv = document.getElementById("ads");
