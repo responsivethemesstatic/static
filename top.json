@@ -6,5 +6,5 @@
 		'width' : 728,
 		'params' : {}
 	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.madcpms.com/c36c002106f717006e17f148abfe1f8d/invoke.js"></scr' + 'ipt>');
 </script>
+<script type="text/javascript" src="https://www.madcpms.com/c36c002106f717006e17f148abfe1f8d/invoke.js"></script>
