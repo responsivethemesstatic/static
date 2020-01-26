@@ -1,23 +1,4 @@
 (function() {
-if(document.getElementById("adsyed")){
-	var scriptn = document.createElement('script');
-	scriptn.async = true;
-    scriptn.type = 'text/javascript';
-    scriptn.src = 'https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
-	scriptn.onload = scriptn.onreadystatechange = function () {
-	atOptions = {
-		'key' : '04ab7bf8059140f2e892fdc85a5bb04d',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-	};
-    var elemn = document.getElementById("adsyed");
-    elemn.appendChild(scriptn);
-}
-})();
-setTimeout(function(){
 if(document.getElementById("adsucyuz")){
 	var scriptb = document.createElement('script');
 	scriptb.async = true;
@@ -34,22 +15,22 @@ if(document.getElementById("adsucyuz")){
     var elemd = document.getElementById("adsucyuz");
     elemd.appendChild(scriptb);
 }
-}, 300);
-setTimeout(function(){
+})();
+(function() {
 if (document.getElementById("ads")) {
 	var scriptbv = document.createElement('script');
 	scriptbv.async = true;
     scriptbv.type = 'text/javascript';
-    scriptbv.src = 'https://www.madcpms.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
+    scriptbv.src = 'https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
 	scriptbv.onload = scriptbv.onreadystatechange = function () {	
 	atOptions = {
-		'key' : 'a458d2acccabadb0ad769a3f1eb6a238',
+		'key' : '04ab7bf8059140f2e892fdc85a5bb04d',
 		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
+		'height' : 90,
+		'width' : 728,
 		'params' : {}
 	};};
     var elemdv = document.getElementById("ads");
     elemdv.appendChild(scriptbv);
 }
-}, 600);
+})();
