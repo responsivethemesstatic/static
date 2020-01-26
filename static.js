@@ -4,7 +4,7 @@ if(document.getElementById("adsyed")){
 	scriptn.async = true;
     scriptn.type = 'text/javascript';
     scriptn.src = 'https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
-	scriptn.onload = script.onreadystatechange = function () {
+	scriptn.onload = scriptn.onreadystatechange = function () {
 	atOptions = {
 		'key' : '04ab7bf8059140f2e892fdc85a5bb04d',
 		'format' : 'iframe',
@@ -21,7 +21,7 @@ if(document.getElementById("adsucyuz")){
 	scriptb.async = true;
     scriptb.type = 'text/javascript';
     scriptb.src = 'https://www.madcpms.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
-	scriptb.onload = script.onreadystatechange = function () {
+	scriptb.onload = scriptb.onreadystatechange = function () {
 	atOptions = {
 		'key' : '4af9baae14a71c16d7c9c5b12bb59fdb',
 		'format' : 'iframe',
@@ -37,7 +37,7 @@ if (document.getElementById("ads")) {
 	scriptbv.async = true;
     scriptbv.type = 'text/javascript';
     scriptbv.src = 'https://www.madcpms.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
-	scriptbv.onload = script.onreadystatechange = function () {	
+	scriptbv.onload = scriptbv.onreadystatechange = function () {	
 	atOptions = {
 		'key' : 'a458d2acccabadb0ad769a3f1eb6a238',
 		'format' : 'iframe',
