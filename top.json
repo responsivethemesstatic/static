@@ -1,10 +1,1 @@
-<script type="text/javascript">
-	atOptions = {
-		'key' : '04ab7bf8059140f2e892fdc85a5bb04d',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js"></scr' + 'ipt>');
-</script>
+<script type=\"text\/javascript\">\r\n\tatOptions = {\r\n\t\t\'key\' : \'04ab7bf8059140f2e892fdc85a5bb04d\',\r\n\t\t\'format\' : \'iframe\',\r\n\t\t\'height\' : 90,\r\n\t\t\'width\' : 728,\r\n\t\t\'params\' : {}\r\n\t};\r\n\tdocument.write(\'<scr\' + \'ipt type=\"text\/javascript\" src=\"http\' + (location.protocol === \'https:\' ? \'s\' : \'\') + \':\/\/www.madcpms.com\/04ab7bf8059140f2e892fdc85a5bb04d\/invoke.js\"><\/scr\' + \'ipt>\');\r\n<\/script>
