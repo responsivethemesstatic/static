@@ -7,5 +7,5 @@
 		'params' : {}
 	};
 </script>
-<script async="true" type="text/javascript" src="https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js"></script>
+<script type="text/javascript" src="https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js" async></script>
 
