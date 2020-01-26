@@ -6,7 +6,6 @@ if(document.getElementById("adsyed")){
 	var el = document.getElementById("adsyed");
     el.appendChild(script);
 	var script = document.createElement('script');
-	script.async = true;
     script.type = 'text/javascript';
     script.src = 'https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
     var el = document.getElementById("adsyed");
@@ -21,7 +20,6 @@ if(document.getElementById("adsucyuz")){
 	var el = document.getElementById("adsucyuz");
     el.appendChild(script);
 	var script = document.createElement('script');
-	script.async = true;
     script.type = 'text/javascript';
     script.src = 'https://www.madcpms.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
     var el = document.getElementById("adsucyuz");
@@ -36,7 +34,6 @@ if(document.getElementById("ads")){
 	var el = document.getElementById("ads");
     el.appendChild(script);
 	var script = document.createElement('script');
-	script.async = true;
     script.type = 'text/javascript';
     script.src = 'https://www.madcpms.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
     var el = document.getElementById("ads");
