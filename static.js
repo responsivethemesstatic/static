@@ -2,6 +2,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function Tutor() {
+await sleep(2000);
 if(document.getElementById("adsyed")){
 	var script = document.createElement('script');
     script.type = 'text/javascript';
