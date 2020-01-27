@@ -29,15 +29,19 @@ if(document.getElementById("adsucyuz")){
 }
 await sleep(2000);
 if(document.getElementById("ads")){
+	var script = document.createElement('center');
+	script.id = 'a458d2acc';
+	var el = document.getElementById("ads");
+	el.appendChild(script);
 	var script = document.createElement('script');
     script.type = 'text/javascript';
     script.text = "atOptions = {'key' : 'a458d2acccabadb0ad769a3f1eb6a238','format' : 'iframe','height' : 60,'width' : 468,'params' : {} 	};";
-	var el = document.getElementById("ads");
+	var el = document.getElementById("a458d2acc");
     el.appendChild(script);
 	var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://www.madcpms.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
-    var el = document.getElementById("ads");
+    var el = document.getElementById("a458d2acc");
     el.appendChild(script);
 }
 }
