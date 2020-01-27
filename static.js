@@ -14,7 +14,7 @@ if(document.getElementById("adsyed")){
     var el = document.getElementById("adsyed");
     el.appendChild(script);
 }
-await sleep(5000);
+await sleep(2000);
 if(document.getElementById("adsucyuz")){
 	var script = document.createElement('script');
     script.type = 'text/javascript';
@@ -27,7 +27,7 @@ if(document.getElementById("adsucyuz")){
     var el = document.getElementById("adsucyuz");
     el.appendChild(script);
 }
-await sleep(5000);
+await sleep(2000);
 if(document.getElementById("ads")){
 	var script = document.createElement('script');
     script.type = 'text/javascript';
