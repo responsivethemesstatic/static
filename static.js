@@ -1,4 +1,7 @@
-(function() {
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+async function Tutor() {
 if(document.getElementById("adsyed")){
 	var script = document.createElement('script');
     script.type = 'text/javascript';
@@ -11,9 +14,7 @@ if(document.getElementById("adsyed")){
     var el = document.getElementById("adsyed");
     el.appendChild(script);
 }
-})();
-
-(function() {
+await sleep(5000);
 if(document.getElementById("adsucyuz")){
 	var script = document.createElement('script');
     script.type = 'text/javascript';
@@ -26,8 +27,7 @@ if(document.getElementById("adsucyuz")){
     var el = document.getElementById("adsucyuz");
     el.appendChild(script);
 }
-})();
-(function() {
+await sleep(5000);
 if(document.getElementById("ads")){
 	var script = document.createElement('script');
     script.type = 'text/javascript';
@@ -40,4 +40,5 @@ if(document.getElementById("ads")){
     var el = document.getElementById("ads");
     el.appendChild(script);
 }
-})();
+}
+Tutor();
