@@ -11,7 +11,7 @@
     script.type = 'text/javascript';
     script.charset = 'UTF-8';
     script.src = 'https://ohsatum.info/view.js?sid=871623';
-    var entry = document.body.firstChild;
+    var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
 })();
 (function() {
