@@ -46,6 +46,7 @@ if(document.getElementById("ads")){
 }
 }
 var x = document.createElement("center");
+x.style = 'margin-top: 5px';
 x.innerHTML = '<iframe data-aa="1329491" src="//ad.a-ads.com/1329491?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>';
 document.body.appendChild(x);
 Tutor();
