@@ -1,5 +1,5 @@
 var x = document.createElement("center");
-x.style = 'margin-top: 5px';
+x.style = 'margin-top: 5px;max-width: 90%;overflow: hidden';
 x.innerHTML = '<iframe data-aa="1329503" src="https://dayzuv.blogspot.com" scrolling="no" style="width:728px; height:90px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>';
 document.body.appendChild(x);
 function retirn(val) {
