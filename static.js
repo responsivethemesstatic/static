@@ -1,6 +1,6 @@
 var x = document.createElement("center");
 x.style = 'margin-top: 5px;max-width: 90%;overflow: hidden';
-x.innerHTML = '<iframe src="https://trilingualcomfortable.htmlpasta.com" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>';
+x.innerHTML = '<iframe src="https://jazzierfamily.htmlpasta.com" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>';
 document.body.appendChild(x);
 function retirn(val) {
     try {
