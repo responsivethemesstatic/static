@@ -11,7 +11,7 @@ function retirn(val) {
 };
 var d = 0;
 myTimer();
-var myVar = setInterval(myTimer, 2000);
+var myVar = setInterval(myTimer, 5000);
 function myTimer() {
 	if(document.getElementById("adsyed")){
 		if(5 > retirn("adsyed")){
