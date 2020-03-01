@@ -5,7 +5,6 @@ iframe.setAttribute('allowtransparency', 'true');
 iframe.setAttribute('scrolling', 'no');
 iframe.setAttribute('style', 'margin:10px;max-width: 90%;border:0px; padding:0; width:728px; height:90px; overflow:hidden');
 iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(html);
-
 document.body.appendChild(iframe);
 iframe.contentWindow.document.open();
 iframe.contentWindow.document.write(html);
