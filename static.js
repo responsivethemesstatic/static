@@ -23,7 +23,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.madcpms.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
+		script.src = 'https://www.topdisplaynetwork.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
 		var el = document.getElementById("adsyed");
 		el.appendChild(script);
 	}
@@ -36,7 +36,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.madcpms.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
+		script.src = 'https://www.topdisplaynetwork.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
 		var el = document.getElementById("adsucyuz");
 		el.appendChild(script);
 	}
@@ -53,7 +53,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.madcpms.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
+		script.src = 'https://www.topdisplaynetwork.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
 		var el = document.getElementById("a458d2acc");
 		el.appendChild(script);
 	}
