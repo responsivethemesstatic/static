@@ -1,5 +1,5 @@
 var iframe = document.createElement('iframe');
-var html = '<!DOCTYPE html> <html> <head> <meta name="referrer" content="no-referrer" /> <meta name="referrer" content="none"><style>body {margin:0;}</style> </head> <body> <iframe src="https://freestatd.github.io" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true" referrerpolicy="no-referrer"></iframe> </body> </html>';
+var html = '<!DOCTYPE html> <html> <head> <meta name="referrer" content="no-referrer" /> <meta name="referrer" content="none"><style>body {margin:0;}</style> </head> <body> <iframe src="https://blickbux.github.io" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true" referrerpolicy="no-referrer"></iframe> </body> </html>';
 iframe.setAttribute('referrerpolicy', 'no-referrer');
 iframe.setAttribute('allowtransparency', 'true');
 iframe.setAttribute('scrolling', 'no');
