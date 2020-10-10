@@ -1,12 +1,12 @@
 (function() {
     if(document.getElementById("top_720")){
-      document.getElementById("top_720").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/6/6116009/632/?t=simple,text,pro,mobile" style="width: 728px; height: 90px" frameborder="no"></iframe></center>';
+      document.getElementById("top_720").innerHTML = '<center><a href="https://rebrand.ly/guyebasyy" target="_blank"><img src="https://lh3.googleusercontent.com/_nxGU-LmrfgnyRqu435EOeo2_hGgeY1XfKNwczsAr_3m58k_ZKLPyPNZfzYr3Ypa1_w7Hgm_PQi3cPLjGGFx-RbxJOAibZngzZzNhDU3hbtGINFHpIuPrWpbRUJuSnK3EZ753MQQ_A=w728-h90-no" width="728" height="90" border="0" alt="" /></a></center>';
     }
     if(document.getElementById("in_post_bottomads")){
-      document.getElementById("in_post_bottomads").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/6/6116009/632/?t=simple,text,pro,mobile" style="width: 728px; height: 90px" frameborder="no"></iframe></center>'; 
+      document.getElementById("top_720").innerHTML = '<center><a href="https://rebrand.ly/guyebasyy" target="_blank"><img src="https://lh3.googleusercontent.com/_nxGU-LmrfgnyRqu435EOeo2_hGgeY1XfKNwczsAr_3m58k_ZKLPyPNZfzYr3Ypa1_w7Hgm_PQi3cPLjGGFx-RbxJOAibZngzZzNhDU3hbtGINFHpIuPrWpbRUJuSnK3EZ753MQQ_A=w728-h90-no" width="728" height="90" border="0" alt="" /></a></center>';
     }
     if(document.getElementById("sidebar_300")){
-      document.getElementById("sidebar_300").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/4/6116009/634/?t=simple,text,pro,mobile" style="width: 300px; height: 250px" frameborder="no"></iframe></center>';
+      document.getElementById("sidebar_300").innerHTML = '<center><a href="https://rebrand.ly/guyebasyy" target="_blank"><img src="https://lh3.googleusercontent.com/22ZAePIMur_vKvRXHVG1f_ah5MQuPrFFHLFVZAZGO33Riy0ZLkNyCgyKQLZRC8rOA0MYcUCHxR2aCdwUD4rD8KXojjX46TwFtmqB8E1eSCRtEv4d6XnN5jhqgxcY1ahOxmxz3HJhgA=w300-h250-no" width="300" height="250" border="0" alt="" /></a></center>';
     }
 })();
 
