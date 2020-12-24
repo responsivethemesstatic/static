@@ -40,7 +40,7 @@ async function relCall() {
             el.appendChild(script);
             script = document.createElement('script');
             script.type = 'text/javascript';
-            script.src = 'https://www.gatetodisplaycontent.com/eb5846df10a6486393481a40d1b87eb4/invoke.jss';
+            script.src = 'https://www.gatetodisplaycontent.com/eb5846df10a6486393481a40d1b87eb4/invoke.js';
             el = document.getElementById("sidebar_300");
             el.appendChild(script);
         }
