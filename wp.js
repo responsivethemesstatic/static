@@ -9,13 +9,52 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
           }
 }
 (function() {
-    if(document.getElementById("top_720") && ucheck() === false){
-      document.getElementById("top_720").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/6/6116009/632/?t=simple,text,pro,mobile" style="width: 728px; height: 90px" frameborder="no"></iframe></center>';
-    }
-    if(document.getElementById("in_post_bottomads") && ucheck() === false){
-      document.getElementById("in_post_bottomads").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/6/6116009/632/?t=simple,text,pro,mobile" style="width: 728px; height: 90px" frameborder="no"></iframe></center>'; 
-    }
-    if(document.getElementById("sidebar_300") && ucheck() === false){
-      document.getElementById("sidebar_300").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/4/6116009/634/?t=simple,text,pro,mobile" style="width: 300px; height: 250px" frameborder="no"></iframe></center>';
+    if(ucheck() === false){
+        var script, el;
+        script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = '//pl15606332.revenuenetworkcpm.com/b1/ac/56/b1ac56cbcd08bd11bfd56153b48b6533.js';
+        document.body.appendChild(script);
+        
+        if(document.getElementById("top_720")){
+            script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.text = "atOptions = {'key' : '4816f97e953f99fa655fdcdd0c4f5c71','format' : 'iframe','height' : 90,'width' : 728,'params' : {} 	};";
+            el = document.getElementById("top_720");
+            el.appendChild(script);
+            script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://www.gatetodisplaycontent.com/4816f97e953f99fa655fdcdd0c4f5c71/invoke.js';
+            el = document.getElementById("top_720");
+            el.appendChild(script);
+        }
+        if(document.getElementById("sidebar_300")){
+            script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.text = "atOptions = {'key' : 'eb5846df10a6486393481a40d1b87eb4','format' : 'iframe','height' : 250,'width' : 300,'params' : {} 	};";
+            el = document.getElementById("sidebar_300");
+            el.appendChild(script);
+            script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://www.gatetodisplaycontent.com/eb5846df10a6486393481a40d1b87eb4/invoke.jss';
+            el = document.getElementById("sidebar_300");
+            el.appendChild(script);
+        }
+        if(document.getElementById("in_post_bottomads")){
+            script = document.createElement('center');
+            script.id = 'a458d2acc';
+            el = document.getElementById("in_post_bottomads");
+            el.appendChild(script);
+            script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.text = "atOptions = {'key' : '1bf289e4ec5b58c423a7597677220242','format' : 'iframe','height' : 60,'width' : 468,'params' : {} 	};";
+            el = document.getElementById("a458d2acc");
+            el.appendChild(script);
+            script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://www.gatetodisplaycontent.com/1bf289e4ec5b58c423a7597677220242/invoke.js';
+            el = document.getElementById("a458d2acc");
+            el.appendChild(script);
+        }
     }
 })();
