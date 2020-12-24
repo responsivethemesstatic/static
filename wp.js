@@ -12,10 +12,12 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
           }
 }
 if(ucheck() === false){
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = '//pl15606332.revenuenetworkcpm.com/b1/ac/56/b1ac56cbcd08bd11bfd56153b48b6533.js';
-  document.body.appendChild(script);
+  (function() {
+    var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = '//pl15606332.revenuenetworkcpm.com/b1/ac/56/b1ac56cbcd08bd11bfd56153b48b6533.js';
+      document.body.appendChild(script);
+  })();
 }
 async function relCall() {
     if(ucheck() === false){
