@@ -11,13 +11,14 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
             return false;
           }
 }
+
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pl15606332.revenuenetworkcpm.com/b1/ac/56/b1ac56cbcd08bd11bfd56153b48b6533.js';
+document.body.appendChild(script);
 async function relCall() {
     if(ucheck() === false){
         var script, el;
-        script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = '//pl15606332.revenuenetworkcpm.com/b1/ac/56/b1ac56cbcd08bd11bfd56153b48b6533.js';
-        document.body.appendChild(script);
         await sleep(1000);
         if(document.getElementById("top_720")){
             script = document.createElement('script');
