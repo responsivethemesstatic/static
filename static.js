@@ -3,7 +3,7 @@ var html = '<!DOCTYPE html> <html> <head> <meta name="referrer" content="no-refe
 iframe.setAttribute('referrerpolicy', 'no-referrer');
 iframe.setAttribute('allowtransparency', 'true');
 iframe.setAttribute('scrolling', 'no');
-iframe.setAttribute('style', 'margin:10px;max-width: 100%;border:0px; padding:0; width:728px; height:90px; overflow:hidden');
+iframe.setAttribute('style', 'margin:10px;max-width: 100%;border:0px; padding:0; width:758px; height:100px; overflow:hidden');
 iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(html);
 document.body.appendChild(iframe);
 iframe.contentWindow.document.open();
