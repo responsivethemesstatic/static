@@ -10,12 +10,12 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
 }
 (function() {
     if(document.getElementById("top_720") && ucheck() === false){
-      document.getElementById("top_720").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/6/6116009/632/?t=simple,text,pro,mobile" style="width: 728px; height: 90px" frameborder="no"></iframe></center>';
+      document.getElementById("top_720").innerHTML = '<iframe data-aa="1651138" src="//ad.a-ads.com/1651138?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>';
     }
     if(document.getElementById("in_post_bottomads") && ucheck() === false){
-      document.getElementById("in_post_bottomads").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/6/6116009/632/?t=simple,text,pro,mobile" style="width: 728px; height: 90px" frameborder="no"></iframe></center>'; 
+      document.getElementById("in_post_bottomads").innerHTML = '<iframe data-aa="1651138" src="//ad.a-ads.com/1651138?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>'; 
     }
     if(document.getElementById("sidebar_300") && ucheck() === false){
-      document.getElementById("sidebar_300").innerHTML = '<center><iframe src="https://get.cryptobrowser.site/pb/4/6116009/634/?t=simple,text,pro,mobile" style="width: 300px; height: 250px" frameborder="no"></iframe></center>';
+      document.getElementById("sidebar_300").innerHTML = '<iframe data-aa="1683087" src="//ad.a-ads.com/1683087?size=300x250" scrolling="no" style="width:300px; height:250px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>';
     }
 })();
