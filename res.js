@@ -11,14 +11,6 @@ function ucheck(){
             return false;
           }
 }
-if(ucheck() === false){
-  (function() {
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = '//pl15563170.passtechusa.com/35/da/1e/35da1e3af13599295821b2545bdc31fc.js';
-    document.body.appendChild(script);
-  })();
-}
 async function relCall() {
         var script, el;
         await sleep(1000);
@@ -66,5 +58,26 @@ async function relCall() {
         }
 }
 if(ucheck() === false){
+    try {
+        (function() {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = '//pl15563170.passtechusa.com/35/da/1e/35da1e3af13599295821b2545bdc31fc.js';
+            document.body.appendChild(script);
+        })();
+          
+        if(!Histats_variables){var Histats_variables=[];}
+        Histats_variables.push("tags",location.hostname);
+        var _Hasync= _Hasync|| [];
+        _Hasync.push(['Histats.start', '1,4562479,4,0,0,0,00010000']);
+        _Hasync.push(['Histats.fasi', '1']);
+        _Hasync.push(['Histats.track_hits', '']);
+        (function() {
+        var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+        hs.src = ('//s10.histats.com/js15_as.js');
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        })();
+    } catch (e) {}
+    
     relCall();
 }
