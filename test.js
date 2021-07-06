@@ -10,12 +10,12 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
 }
 (function() {
     if(document.getElementById("top_720") && ucheck() === false){
-      document.getElementById("top_720").innerHTML = '<iframe data-aa="1651138" src="//ad.a-ads.com/1651138?size=320x100" scrolling="no" style="width:320px; height:100px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>';
+      document.getElementById("top_720").innerHTML = '<a href="https://rollercoin.com/?r=jyanqkv6"><img src="//rollercoin.com/static/img/public_img/gen2/w728h90.gif"/></a>';
     }
     if(document.getElementById("in_post_bottomads") && ucheck() === false){
-      document.getElementById("in_post_bottomads").innerHTML = '<iframe data-aa="1651138" src="//ad.a-ads.com/1651138?size=320x100" scrolling="no" style="width:320px; height:100px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>'; 
+      document.getElementById("in_post_bottomads").innerHTML = '<a href="https://rollercoin.com/?r=jyanqkv6"><img src="//rollercoin.com/static/img/public_img/gen2/w460h60.gif"/></a>'; 
     }
     if(document.getElementById("sidebar_300") && ucheck() === false){
-      document.getElementById("sidebar_300").innerHTML = '<iframe data-aa="1651138" src="//ad.a-ads.com/1651138?size=320x100" scrolling="no" style="width:320px; height:100px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>';
+      document.getElementById("sidebar_300").innerHTML = '<a href="https://rollercoin.com/?r=jyanqkv6"><img src="//rollercoin.com/static/img/public_img/gen2/w300h250.gif"/></a>';
     }
 })();
