@@ -12,7 +12,7 @@ function ucheck(){
           }
 }
 if(ucheck() === false){
-    var itemb = ["https://sandibompoy.blogspot.com",
+    var itemb = ["https://mnblank.blogspot.com",
 		 "https://mnblank.blogspot.com",
 		 "https://mnblank.blogspot.com",
 		 "https://mnblank.blogspot.com",
