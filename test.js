@@ -10,12 +10,12 @@ var botPattern = "(googlebot\/|Googlebot-Mobile|Googlebot-Image|Google favicon|M
 }
 (function() {
     if(document.getElementById("top_720") && ucheck() === false){
-      document.getElementById("top_720").innerHTML = '<a href="https://rollercoin.com/?r=jyanqkv6"><img src="//rollercoin.com/static/img/public_img/gen2/w728h90.gif"/></a>';
+      document.getElementById("top_720").innerHTML = '<iframe data-aa="1721784" src="//ad.a-ads.com/1721784?size=728x90" style="width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;" ></iframe>';
     }
     if(document.getElementById("in_post_bottomads") && ucheck() === false){
-      document.getElementById("in_post_bottomads").innerHTML = '<a href="https://rollercoin.com/?r=jyanqkv6"><img src="//rollercoin.com/static/img/public_img/gen2/w460h60.gif"/></a>'; 
+      document.getElementById("in_post_bottomads").innerHTML = '<iframe data-aa="1724158" src="//ad.a-ads.com/1724158?size=468x60" style="width:468px; height:60px; border:0px; padding:0; overflow:hidden; background-color: transparent;" ></iframe></a>'; 
     }
     if(document.getElementById("sidebar_300") && ucheck() === false){
-      document.getElementById("sidebar_300").innerHTML = '<a href="https://rollercoin.com/?r=jyanqkv6"><img src="//rollercoin.com/static/img/public_img/gen2/w300h250.gif"/></a>';
+      document.getElementById("sidebar_300").innerHTML = '<iframe data-aa="1724200" src="//ad.a-ads.com/1724200?size=300x250" style="width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;" ></iframe>';
     }
 })();
