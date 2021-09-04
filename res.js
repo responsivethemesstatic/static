@@ -1,7 +1,12 @@
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
+(function() {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = '//pl16561963.effectivecpmgate.com/f5/73/2f/f5732f8ef13b81d67efb19cf1589fed0.js';
+    document.body.appendChild(script);
+})();
 async function relCall() {
         var script, el;
         await sleep(1000);
@@ -48,11 +53,4 @@ async function relCall() {
             el.appendChild(script);
         }
 }
-(function() {
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = '//pl16561963.effectivecpmgate.com/f5/73/2f/f5732f8ef13b81d67efb19cf1589fed0.js';
-    document.body.appendChild(script);
-})();
-
 relCall();
