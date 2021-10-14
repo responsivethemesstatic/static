@@ -2,7 +2,6 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-
 async function Tutor() {
 	await sleep(1000);
 	if(document.getElementById("adsyed")){
