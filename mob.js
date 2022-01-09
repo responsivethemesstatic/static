@@ -1,17 +1,6 @@
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-var iframe = document.createElement('iframe');
-var html = '<!DOCTYPE html> <html> <head> <meta name="referrer" content="no-referrer" /><meta name="referrer" content="none"><style>body {margin:0;}</style> </head> <body> <iframe src="https://mnblank.blogspot.com" style="border:0px;padding:0;width:100%;position: absolute; height: 100%;" allowtransparency="true" referrerpolicy="no-referrer"></iframe> </body> </html>';
-iframe.setAttribute('referrerpolicy', 'no-referrer');
-iframe.setAttribute('allowtransparency', 'true');
-iframe.setAttribute('scrolling', 'no');
-iframe.setAttribute('style', 'margin:10px;max-width: 100%;border:0px; padding:0; width:758px; height:150px; overflow:hidden');
-iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(html);
-document.body.appendChild(iframe);
-iframe.contentWindow.document.open();
-iframe.contentWindow.document.write(html);
-iframe.contentWindow.document.close();
 async function Tutor() {
 	await sleep(1000);
 	if(document.getElementById("adsyed")){
@@ -22,7 +11,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.variouscreativeformats.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
+		script.src = 'https://www.effectivedisplaycontent.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
 		var el = document.getElementById("adsyed");
 		el.appendChild(script);
 	}
@@ -35,7 +24,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.variouscreativeformats.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
+		script.src = 'https://www.effectivedisplaycontent.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
 		var el = document.getElementById("adsucyuz");
 		el.appendChild(script);
 	}
@@ -52,7 +41,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.variouscreativeformats.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
+		script.src = 'https://www.effectivedisplaycontent.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
 		var el = document.getElementById("a458d2acc");
 		el.appendChild(script);
 	}
@@ -61,7 +50,7 @@ async function Tutor() {
 (function() {
 	var script = document.createElement('script');
 	script.type = 'text/javascript';
-	script.src = '//pl15563170.alternativecpmgate.com/35/da/1e/35da1e3af13599295821b2545bdc31fc.js';
+	script.src = '//pl15563170.trustedcpmrevenue.com/35/da/1e/35da1e3af13599295821b2545bdc31fc.js';
 	document.body.appendChild(script);
 })();
 Tutor();
