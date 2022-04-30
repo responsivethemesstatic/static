@@ -1,6 +1,9 @@
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+if(document.getElementById("extra_bottomads")){
+    document.getElementById("extra_bottomads").innerHTML='<a href="https://bit.ly/39sJ4zI"><img title="Join Cointiply to Earn Free Bitcoin!" alt="Earn Free Bitcoin" src="https://cointiply.com/img/promo/banners/1_728x90.gif" width=600" height="80"></a>';
+}
 (function() {
 var script = document.createElement('script');
   script.type = 'text/javascript';
