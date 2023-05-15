@@ -7,7 +7,7 @@ if(document.getElementById("extra_bottomads")){
 (function() {
 var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src = '//pl15606332.trustedcpmrevenue.com/b1/ac/56/b1ac56cbcd08bd11bfd56153b48b6533.js';
+  script.src = '//pl15606332.highrevenuegate.com/b1/ac/56/b1ac56cbcd08bd11bfd56153b48b6533.js';
   document.body.appendChild(script);
 })();
 async function relCall() {
@@ -21,7 +21,7 @@ async function relCall() {
             el.appendChild(script);
             script = document.createElement('script');
             script.type = 'text/javascript';
-            script.src = 'https://www.effectivedisplaycontent.com/4816f97e953f99fa655fdcdd0c4f5c71/invoke.js';
+            script.src = 'https://www.profitabledisplaynetwork.com/4816f97e953f99fa655fdcdd0c4f5c71/invoke.js';
             el = document.getElementById("top_720");
             el.appendChild(script);
         }
@@ -34,7 +34,7 @@ async function relCall() {
             el.appendChild(script);
             script = document.createElement('script');
             script.type = 'text/javascript';
-            script.src = 'https://www.effectivedisplaycontent.com/eb5846df10a6486393481a40d1b87eb4/invoke.js';
+            script.src = 'https://www.profitabledisplaynetwork.com/eb5846df10a6486393481a40d1b87eb4/invoke.js';
             el = document.getElementById("sidebar_300");
             el.appendChild(script);
         }
@@ -51,7 +51,7 @@ async function relCall() {
             el.appendChild(script);
             script = document.createElement('script');
             script.type = 'text/javascript';
-            script.src = 'https://www.effectivedisplaycontent.com/1bf289e4ec5b58c423a7597677220242/invoke.js';
+            script.src = 'https://www.profitabledisplaynetwork.com/1bf289e4ec5b58c423a7597677220242/invoke.js';
             el = document.getElementById("a458d2acc");
             el.appendChild(script);
         }
