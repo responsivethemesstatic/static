@@ -11,7 +11,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.effectivedisplaycontent.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
+		script.src = 'https://www.profitabledisplaynetwork.com/04ab7bf8059140f2e892fdc85a5bb04d/invoke.js';
 		var el = document.getElementById("adsyed");
 		el.appendChild(script);
 	}
@@ -24,7 +24,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.effectivedisplaycontent.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
+		script.src = 'https://www.profitabledisplaynetwork.com/4af9baae14a71c16d7c9c5b12bb59fdb/invoke.js';
 		var el = document.getElementById("adsucyuz");
 		el.appendChild(script);
 	}
@@ -41,7 +41,7 @@ async function Tutor() {
 		el.appendChild(script);
 		var script = document.createElement('script');
 		script.type = 'text/javascript';
-		script.src = 'https://www.effectivedisplaycontent.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
+		script.src = 'https://www.profitabledisplaynetwork.com/a458d2acccabadb0ad769a3f1eb6a238/invoke.js';
 		var el = document.getElementById("a458d2acc");
 		el.appendChild(script);
 	}
@@ -50,7 +50,7 @@ async function Tutor() {
 (function() {
 	var script = document.createElement('script');
 	script.type = 'text/javascript';
-	script.src = '//pl15563170.trustedcpmrevenue.com/35/da/1e/35da1e3af13599295821b2545bdc31fc.js';
+	script.src = '//pl15563170.highrevenuegate.com/35/da/1e/35da1e3af13599295821b2545bdc31fc.js';
 	document.body.appendChild(script);
 })();
 Tutor();
