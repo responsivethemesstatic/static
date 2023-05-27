@@ -130,6 +130,7 @@ function addpLoadx(){
 				document.body.removeChild(adp_underlay);
 				document.body.removeChild(adp);
 				xaddpsts = true;
+				window.location.reload();
 			};
 		});
 	}
