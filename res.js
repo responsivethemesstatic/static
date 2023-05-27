@@ -57,6 +57,7 @@ async function relCall() {
 
 
 relCall();
+
 document.head.insertAdjacentHTML("beforeend", `<style>.adp {
 	display: flex;
 	box-sizing: border-box;
@@ -76,6 +77,7 @@ document.head.insertAdjacentHTML("beforeend", `<style>.adp {
 	border-bottom: 1px solid #eee;
 	margin: 0;
 	padding: 15px 0;
+	text-align: center;
 }
 .adp p {
 	 flex-grow: 1;
@@ -120,7 +122,7 @@ function addpLoadx(){
 			adp.innerHTML = `
 				<h3>Ad Blocker Detected!</h3>
 				<p>We use advertisements to keep our website online, could you please whitelist our website, thanks!</p>
-				<a href="#">Okay</a>
+				<a href="#">Refresh page</a>
 			`;
 			document.body.appendChild(adp);
 			adp.querySelector('a').onclick = e => {
