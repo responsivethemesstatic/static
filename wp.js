@@ -67,8 +67,8 @@ document.head.insertAdjacentHTML("beforeend", `<style>.adp {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	width: 500px;
-	height: 400px;
+	width: auto;
+	height: auto;
 	background-color: #ffffff;
 	padding: 20px;
 	border-radius: 5px;
@@ -78,9 +78,11 @@ document.head.insertAdjacentHTML("beforeend", `<style>.adp {
 	margin: 0;
 	padding: 15px 0;
 	text-align: center;
+	color: black;
 }
 .adp p {
 	 flex-grow: 1;
+	 color: black;
 }
 .adp a {
 	display: block;
@@ -122,6 +124,9 @@ function addpLoadx(){
 			adp.innerHTML = `
 				<h3>Ad Blocker Detected!</h3>
 				<p>We use advertisements to keep our website online, could you please whitelist our website, thanks!</p>
+				<p></p>
+				<p></p>
+				<p></p>
 				<a href="#">Refresh page</a>
 			`;
 			document.body.appendChild(adp);
