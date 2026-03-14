@@ -41,7 +41,7 @@ async function relCall(){
 
 		var container = document.createElement("div");
 		container.id = "a458d2acc";
-		
+		parent.appendChild(container);
 
 		var s1 = document.createElement("script");
 		s1.innerHTML = "window.atOptions={'key':'3a70c20c4dd4363472d820cab195c162','format':'iframe','height':60,'width':468,'params':{}};";
@@ -50,7 +50,7 @@ async function relCall(){
 		var s2 = document.createElement("script");
 		s2.src = "https://www.highperformanceformat.com/3a70c20c4dd4363472d820cab195c162/invoke.js";
 		container.appendChild(s2);
-		parent.appendChild(container);
+		
 	}
 }
 
