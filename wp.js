@@ -4,7 +4,6 @@ function sleep(ms){
 
 async function relCall(){
 
-    await sleep(1000);
 	try {
 		(function () {
 			const script = document.createElement("script");
