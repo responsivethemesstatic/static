@@ -2,7 +2,7 @@ function sleep(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function relCall(){
+async function relCall(){
 	try {
 		(function () {
 			const script = document.createElement("script");
