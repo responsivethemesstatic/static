@@ -2,7 +2,7 @@ function sleep(ms){
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function relCall(){
+async function relCall(){
 	try {
 		(function () {
 			const script = document.createElement("script");
@@ -10,7 +10,7 @@ function relCall(){
 			(document.body || document.documentElement).appendChild(script);
 		})();
 	} catch (e) {}
-    
+    await sleep(1000);
 	try {
 		let el = document.getElementById("top_720");
 		if(el){
@@ -23,7 +23,7 @@ function relCall(){
 			el.appendChild(s2);
 		}
 	} catch (e) {}
-    
+    await sleep(3000);
 	try {
 		el = document.getElementById("sidebar_300");
 		if(el){
@@ -36,7 +36,7 @@ function relCall(){
 			el.appendChild(s2);
 		}
 	} catch (e) {}
-    
+    await sleep(3000);
 	try {
 		var parent = document.getElementById("in_post_bottomads");
 
