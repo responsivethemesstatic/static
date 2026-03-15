@@ -16,7 +16,7 @@ async function relCall(){
     let el = document.getElementById("top_720");
     if(el){
         let s1 = document.createElement("script");
-        s1.innerHTML = "window.atOptions={key:'9517a4efa0af3fead641c773740cb25f',format:'iframe',height:90,width:728,params:{}};";
+        s1.innerHTML = "atOptions={key:'9517a4efa0af3fead641c773740cb25f',format:'iframe',height:90,width:728,params:{}};";
         el.appendChild(s1);
 
         let s2 = document.createElement("script");
@@ -27,7 +27,7 @@ async function relCall(){
     el = document.getElementById("sidebar_300");
     if(el){
         let s1 = document.createElement("script");
-        s1.innerHTML = "window.atOptions={key:'90073778d39cc0a40947c56562a933d5',format:'iframe',height:250,width:300,params:{}};";
+        s1.innerHTML = "atOptions={key:'90073778d39cc0a40947c56562a933d5',format:'iframe',height:250,width:300,params:{}};";
         el.appendChild(s1);
 
         let s2 = document.createElement("script");
@@ -44,7 +44,7 @@ async function relCall(){
 		parent.appendChild(container);
 
 		var s1 = document.createElement("script");
-		s1.innerHTML = "window.atOptions={'key':'3a70c20c4dd4363472d820cab195c162','format':'iframe','height':60,'width':468,'params':{}};";
+		s1.innerHTML = "atOptions={'key':'3a70c20c4dd4363472d820cab195c162','format':'iframe','height':60,'width':468,'params':{}};";
 		container.appendChild(s1);
 
 		var s2 = document.createElement("script");
